@@ -11,7 +11,8 @@ const generateToken = (user) => {
       },
       jwtSecret,
       {
-        expiresIn: "7d"
+        // expiresIn: "7d"
+        expiresIn: "8h"
       }
     );
    return token;
